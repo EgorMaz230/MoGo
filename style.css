@@ -144,3 +144,27 @@
 .card-text {
   font-family: Roboto;
 }/*# sourceMappingURL=styles.css.map */
+.info-block-2 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.main__work-2 {
+  font-family: "Kaushan Script";
+  margin-bottom: 20px;
+  animation: slide-down 1s ease-in-out;
+}
+.main__amazing-2 {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  animation: amazing 1s ease-in-out;
+}
+.block__line-2 {
+  width: 60px;
+  height: 4px;
+  background: #f38181;
+  margin-bottom: 40px;
+  animation: hr 1s ease-in-out;
+}
