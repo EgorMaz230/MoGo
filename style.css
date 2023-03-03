@@ -170,16 +170,22 @@
 }
 
 .down-team-body {
+  
   margin-bottom: 80px;
   margin-top: 20px;
   display: flex;
-  width: 1300px;
-  height: 556px;
+  margin: 0 auto;
+  max-width: 1300px;
+  /* height: 556px; */
+  justify-content: space-around;
+  align-items: center;
 }
 .team-section-wrapper {
-  display: flex;
+  border: 1px solid #a94b4b;
+  /* display: flex; */
 }
 .team-box-wrapper {
+  display: flex;
 }
 .teamBox {
   text-align: center;
@@ -267,4 +273,88 @@
 }
 .footer-txt span {
   color: #F38181;
+}
+.header__menu-burger {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  margin-right: 30px;
+}
+
+.burger {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: rgb(0, 0, 0);
+  top: 50%;
+}
+
+.burger-before {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: rgb(0, 0, 0);
+  top: 20%;
+}
+
+.burger-after {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: rgb(0, 0, 0);
+  top: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__list {
+    display: none;
+  }
+  .header__menu-burger {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  margin-right: 30px;
+}
+
+.burger {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: rgb(0, 0, 0);
+  top: 50%;
+}
+
+.burger-before {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: rgb(0, 0, 0);
+  top: 20%;
+}
+
+.burger-after {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: rgb(0, 0, 0);
+  top: 80%;
+}
+  
+.down-team-body {
+  flex-direction: column;
+  margin-right: 35px;
+}
+.header__logo{
+  margin-left: 15px;
+}
+.footer-hr {
+  width: 400px;
+}
+}
+
+
+@media only screen and (min-width: 600px) {
+  .header__menu-burger{
+    display: none;
+  }
 }
